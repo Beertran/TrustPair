@@ -15,6 +15,25 @@ docker build -t trustpair:latest .
 docker run -it trustpair
 ```
 
+# Available commands
+## search
+Allows you to search for a city available in the API.
+If you search 'san' the program will suggest cities such as San Francisco, San Diego, San Jose
+By default, up to 10 suggestions will be displayed. You may change this limit using the --limit option
+
+## weather
+Allows you to display the weather for a chosen city.
+By default, only 1 city will be displayed. You may change this limit using the --limit option.
+By default, the weather will be shown for tomorrow. You may change how many days ahead you want a forecast for, using --days-from-today. 0 is today, 1 is tomorrow, 2 is the day after tomorrow, etc...
+
+## coord
+This works similarly to the weather command, but with GPS coordinates instead of the city's name.
+You must input both a latitude and longitude, using --latitude and --longitude respectively.
+Similar to weather, you may set a limit using --limit and/or use --days-from-today to determine when the forecast should apply.
+
+## help
+This will guide you through using the program
+
 # Run the project
 
 To start the API, run the following command:
