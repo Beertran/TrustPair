@@ -1,0 +1,52 @@
+# Python Software Engineer - Technical Test
+
+Hello, dear candidate, and **congratulations** for successfully clearing the first interview and screening rounds!
+
+You’ll soon meet with us for a **technical interview**, during which we’ll chat and get a better understanding of where you are now, and how much of a match there is between our mutual practices.
+
+But **everyone is different**, and we don’t want to miss good profiles just because we didn’t give you the right opportunity to shine. No single test will be appropriate for all our candidates, and we believe that **you** know best what would be the most appropriate way for you to show us your skills.
+
+So, we’ll let you **choose two tasks in the list below**. The tasks are really here as a “first impression” and to provide a basis for discussion for the technical interview that will follow. The tasks are based on scoped versions of what we consider as the different facets of our day jobs as software developers.
+
+Please **don’t pick more than two**, because we’ll have a hard time reviewing them correctly, and we won’t have enough time to talk about them during the interview. If you’re really **short on time** (interviewing at multiple companies is hard, we’ve been through this too), **it’s okay to choose just one**, but we may need to go more in depth during the interview.
+
+Also, please **do not spend too much time on each test**. We would rather have a list of things you would like to improve than have you spend 3 hours polishing an already working code.
+
+Last thing: we’d like to wrap this up in about a week's time. If you need more time, it’s ok, but please let us know.
+
+## A - Open source code
+
+If you already happen to have an interesting piece of code of yours online, send us the URL. We don’t need to take more time of yours if you’ve already offered that much to the community. If it’s a repo where you’re the main contributor, it’s easier for us, but we can also accept pull requests. We trust your judgment in showcasing your existing work. This can be a good option if you don’t want to spend too much time.
+
+## B - Open source pull request
+
+There are numerous open source projects in the wild looking for help. Let’s lend them a hand. You can select an open issue in the repository of your choice (be it your project, one of ours, or someone else’s) or let us select an appropriate issue. If you choose the issue, though, please send it to us beforehand so we can have a look at it.
+
+## C - Build an API server
+
+Build a REST API using Python.
+
+Usually, Django REST Framework is a good framework for this but we would prefer Flask or Aiohttp, among others as more appropriate to our environment.
+
+It’s a restaurant API where you can create, update and delete a restaurant (identified by its name), and also list restaurants, get a restaurant by name and get a random restaurant. Of course, packaging the app and testing it is always a great plus.
+
+## D - Build a command line API client
+
+Using the [Metaweather API](https://www.metaweather.com/api/), make a command line tool that receives a city name as an argument and says whether it’s going to rain tomorrow in this city or not. Here again, packaging and tests are optional (but always appreciated). This can be done quite shortly if you’re on a schedule and stick to the minimum.
+
+## E - Real life at Trustpair
+
+We have a process of suppliers’ verification where we need to confirm some information by phoning the financial department of these companies.
+
+In this use case, you will have to propose phone numbers to call. For that, we have a dataset available [here](https://drive.google.com/file/d/1Solv1idPPtbN8uY2o8JVAEMx65CRWE4B/view?usp=sharing) with scored phone numbers between 0 (no one answers) to 1 (someone from finance service will answer) and you will have to assign phone calls to your 4 calling coworkers:
+
+- Alexander who speaks french, german, spanish
+- Erika who speaks german and dutch
+- Ludovic who speak english, french
+- Sara who speaks english, french and chinese
+
+So your mission here will be to create an API that will be called by our Internal Call Application in order to know who to call next half-day. Given a coworker name, count of telephone number and an hour of the day, as an output, we would like to have the phone numbers to call.
+
+## F - Something else
+
+Well, maybe you have something else in mind which you think would be a great basis for a technical discussion and would let you shine and show us your skills. We support creative solutions, so, have it your way :)
