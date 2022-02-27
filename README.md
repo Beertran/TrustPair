@@ -2,19 +2,6 @@
 
 Using the [Metaweather API](https://www.metaweather.com/api/), make a command line tool that receives a city name as an argument and says whether it’s going to rain tomorrow in this city or not. Here again, packaging and tests are optional (but always appreciated). This can be done quite shortly if you’re on a schedule and stick to the minimum.
 
-## How to run the project
-
-Clone the project:
-```
-git clone https://github.com/Beertran/TrustPair.git
-```
-
-Build and run the Docker image
-```
-docker build -t trustpair:latest .
-docker run -it trustpair
-```
-
 # Available commands
 ## search
 Allows you to search for a city available in the API.
@@ -36,7 +23,20 @@ This will guide you through using the program
 
 # Run the project
 
-To start the API, run the following command:
+## How to retrieve the project
+
+Clone the project:
+```
+git clone https://github.com/Beertran/TrustPair.git
+```
+
+Go to the new folder, build and run the Docker image
+```
+docker build -t trustpair:latest .
+docker run -it trustpair
+```
+
+You may then open the app's CLI and run the following command to run the program:
 ```
  python3 weather_app.py
 ```
@@ -63,7 +63,6 @@ To test the API, run the following command:
 ```
 python3 -m pytest
 ```
-
 
 Expected output:
 ```
