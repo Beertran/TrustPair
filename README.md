@@ -11,7 +11,7 @@ git clone https://github.com/Beertran/TrustPair.git
 
 Build and run the Docker image
 ```
-docker build -t trustpair:latest .
+docker build --network=host -t trustpair:latest .
 docker run -it trustpair
 ```
 

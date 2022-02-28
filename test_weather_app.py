@@ -28,8 +28,8 @@ def test_search_fails():
     responses.add(responses.GET, 'https://www.metaweather.com/api/location/search/?query=Paris',
                   json=[{'title_is_missing': 'no_title'}], status=404)
     result = runner.invoke(search, ['Paris'])
-    assert result.exit_code == 1
-    assert result.output == ''
+    assert result.exit_code == 0
+    assert result.output == 'Error: The data retrieved from the API did not contain the city name required to proceed.\n'
 
 def test_weather():
     result = runner.invoke(weather, ['om', '--limit', '2'])
