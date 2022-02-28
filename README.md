@@ -4,16 +4,6 @@ Using the [Metaweather API](https://www.metaweather.com/api/), make a command li
 
 ## How to run the project
 
-Clone the project:
-```
-git clone https://github.com/Beertran/TrustPair.git
-```
-
-Build and run the Docker image
-```
-docker build --network=host -t trustpair:latest .
-docker run -it trustpair
-```
 
 # Available commands
 ## search
@@ -36,7 +26,20 @@ This will guide you through using the program
 
 # Run the project
 
-To start the API, run the following command:
+## Retrieve and run the project
+
+Clone the project:
+```
+git clone https://github.com/Beertran/TrustPair.git
+```
+
+Go to the new folder, build and run the Docker image
+```
+docker build --network=host -t trustpair:latest .
+docker run -it trustpair
+```
+
+You may then open the app's CLI and run the following command to run the program:
 ```
  python3 weather_app.py
 ```
