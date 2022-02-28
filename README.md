@@ -44,6 +44,21 @@ You may then open the app's CLI and run the following command to run the program
  python3 weather_app.py
 ```
 
+Expected output:
+```
+Usage: weather_app.py [OPTIONS] COMMAND [ARGS]...
+
+  Simple CLI for querying weather forecasts from the Metaweather API
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  coord    Search a city from GPS coordinates
+  search   This searches a city from the available cities of the API
+  weather  This searches the weather using a city name
+```
+
 Here are a few examples of commands you may use to try out the program:
 ```
  python3 weather_app.py search mar
