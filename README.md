@@ -72,9 +72,9 @@ At any moment, the help command may guide you through the CLI's features:
  python3 weather_app.py coord --help
 ```
 
-# Test the API
+# Test the client
 
-To test the API, run the following command:
+To test the client, run the following command:
 ```
 python3 -m pytest
 ```
